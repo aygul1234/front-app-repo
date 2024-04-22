@@ -30,7 +30,7 @@ function UpperPage() {
     const classes = useStyles();
     const [ data, setState ] = useState({outcome:[]})
     
-    const url = `{backend-ingress ADDRESS}/services/all`
+    const url = '{backend-ingress ADDRESS}/services/all'
     
     useEffect(() => {
       const fetchData = async () => {
